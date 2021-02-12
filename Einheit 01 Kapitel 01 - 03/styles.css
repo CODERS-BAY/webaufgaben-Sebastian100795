@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&family=Stalinist+One&display=swap');
+
+body{
+    font-size: 120%;
+    line-height: 1.4;
+    margin: 0;
+
+}
+
+h1{
+    text-align: center;
+    font-family: "Stalinist One", sans-serif;
+    text-shadow: 6px 6px 8px rgb(136, 126, 126);
+}
+
+header{
+    background-color:rgb(58, 160, 17);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+nav ul {
+    margin: 0;    
+    list-style: none;
+    font-weight: bold;
+}
+
+nav a{
+    color: rgb(61, 63, 61);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    
+}
+article{
+    font-family: "Sriracha", sans-serif;
+    width: 60%;
+    margin: 0.2rem;
+    width: auto;
+    box-shadow: 6px 6px 8px;
+}
+
+img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+main{
+    max-width: 62rem;
+    margin: auto;
+    display: flex;
+}
+
+footer{
+    background-color: rgb(58, 160, 17);
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+@media screen and(max-width: 530px){
+    main{
+        display: block;
+    }
+    article{
+        width: auto;
+    }
+}
+
