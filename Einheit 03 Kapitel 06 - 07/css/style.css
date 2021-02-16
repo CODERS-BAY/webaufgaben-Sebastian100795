@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&family=Stalinist+One&display=swap');
+
+body{
+    font-size: 120%;
+    line-height: 1.4;
+    margin: 0;
+    background-color: rgb(29, 129, 160);
+}
+
+h1{
+    text-align: center;
+    font-family: "Stalinist One", sans-serif;
+    text-shadow: 6px 6px 8px rgb(9, 224, 231);
+}
+
+header{
+    background-color: rgb(156, 155, 152);
+}
+
+article{
+    font-family: "Sriracha", sans-serif;
+    width: 60%;
+    margin: 0.2rem;
+    width: auto;
+    text-align: center;
+}
+
+main{
+    max-width: 100%;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(156, 155, 152);
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+h2{
+    text-align: center;
+}
