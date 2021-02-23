@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zoo Linz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaled">
+    <link rel="stylesheet" href="/Einheit 04 Kapitel 08/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Zoo Linz</h1>
+        <nav>
+            <a href="index.html">Startseite</a>
+            <a href="info.html">Infos</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div class="contact">
+                <label>Name:</label>
+                <input type="text">
+                <br>
+                <label>E-Mail:</label>
+                <input type="text">
+                <br>
+                <label>Besuchstag:</label>
+                <input type="date">
+                <label>Besuchszeit:</label>
+                <input type="time">
+                <br>
+                <label>Hat es gefallen?</label>
+                <input type="range">
+                <br>
+                <label>Weiterempfehlung:</label>
+                <input type="checkbox" id="Ja" name="Ja" checked>
+                <label for="Ja">Ja</label>
+                <input type="checkbox" id="Nein" name="Nein" checked>
+                <label for="Nein">Nein</label>
+                <br>
+                <label>Welche Tierart hat Ihnen am besten gefallen?</label>
+                <form action="select.html">
+                    <label>Tierart:
+              <select name="tierart">
+                <option>Löwe</option>
+                <option>Bär</option>
+                <option>Elefant</option>
+                <option>Mangusten</option>
+                <option>Antilopen</option>
+                <option>Nashorn</option>
+                <option>Giraffe</option>
+                <option>Otter</option>
+                <option>Schimpansen</option>
+                <option>Tiger</option>
+                <option>Gottesanbeterin</option>
+                <option>Skorpion</option>
+                <option>Tarantel</option>
+                <option>Vogelspinne</option>
+                <option>Anemonenfisch</option>
+                <option>Großer Drachenkopf</option>
+                <option>Seepferdchen</option>
+                <option>Nandu</option>
+                <option>Flamingo</option>
+                <option>Pinguine</option>
+                <option>Kakadu</option>
+              </select>
+            </label>
+                </form>
+                <label for="text">Kommentar</label>
+                <textarea id="text" name="text" cols="35" rows="4"></textarea>
+                <form action="select.html">
+                    <label>Besucherinfo:
+              <select name="tierart">
+                <option>Familienausflug</option>
+                <option>Allein unterwegs</option>
+                <option>Gruppenausflug</option>
+                <option>Ausflug mit Freunden</option>
+                <option>was anderes</option>
+            </select>
+        </label>
+                </form>
+                <input type="submit" value="Absenden" /><br />
+                <input type="reset" value="Zurücksetzen" />
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
