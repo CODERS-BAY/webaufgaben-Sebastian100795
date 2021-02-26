@@ -1,0 +1,171 @@
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ballet&family=Snowburst+One&family=Stalinist+One&display=swap');
+        body {
+            font-size: 120%;
+            line-height: 1.4;
+            margin: 0;
+            background-color: black;
+        }
+        
+        #body {
+            background-image: url(https://www.urlaubstracker.at/wp-content/uploads/2019/05/zoo-tiger.jpg);
+        }
+        
+        h1 {
+            text-align: center;
+            font-family: "Stalinist One", sans-serif;
+            font-style: oblique;
+            color: rgb(255, 232, 21);
+        }
+        
+        header {
+            background-color: rgb(10, 66, 8);
+        }
+        
+        nav {
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            text-align: center;
+            margin: 10px;
+        }
+        
+        article {
+            font-family: sans-serif;
+            width: 60%;
+            margin: 0.2rem;
+            width: auto;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 70px;
+        }
+        
+        img {
+            object-fit: cover;
+            max-width: auto;
+        }
+        
+        main {
+            margin: auto;
+        }
+        
+        footer {
+            background-color: rgb(10, 66, 8);
+            padding: 2rem;
+            margin-top: 1rem;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            width: 60%;
+            table-layout: auto;
+            margin: 0 auto;
+            background-color: white;
+        }
+        
+        p {
+            text-align: center;
+            color: white;
+        }
+        
+        dl {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            background-color: rgba(20, 20, 20, 0.5);
+        }
+        
+        .contact {
+            color: white;
+            margin-top: 100px;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+        
+        h3 {
+            color: rgb(224, 204, 24);
+            font-size: 30px;
+            background-color: rgba(20, 20, 20, 0.5);
+        }
+        
+        section {
+            margin-top: auto;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 200%;
+            text-align: center;
+            color: white;
+        }
+        
+        #Säugetiere1 {
+            background-color: black;
+            background-image: url(https://www.scinexx.de/wp-content/uploads/t/r/tropenco2g.jpg);
+            background-size: cover;
+        }
+        
+        #Insekten {
+            background-image: url(https://www.bmel.de/SharedDocs/Bilder/DE/_Landwirtschaft/Pflanzenbau/Boden/Waldboden.jpg?__blob=wide&v=5);
+        }
+        
+        #Aquarium {
+            background-image: url(https://img.br.de/a841bb18-f47d-4681-9791-8746ab1c5a32.jpeg?rect=78,51,1095,616&w=1600&h=900);
+        }
+        
+        #Vogel {
+            background-image: url(https://www.swr.de/wissen/1601653064372,himmel-104~_v-16x9@2dM_-ad6791ade5eb8b5c935dd377130b903c4b5781d8.jpg);
+            background-size: cover;
+        }
+        
+        a:active {
+            background-color: chartreuse;
+        }
+        
+        #contact {
+            text-align: center;
+            background-color: rgba(20, 20, 20, 0.5);
+            font-weight: bold;
+            font-variant: small-caps;
+        }
+        
+        #welcome::before {
+            content: "\f1b0";
+            font-family: 'FontAwesome';
+            font-size: inherit;
+            font: normal normal normal 14px/1;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            display: inline-block;
+        }
+        
+        #welcome::after {
+            content: "\f1b0";
+            font-family: 'FontAwesome';
+            font-size: inherit;
+            font: normal normal normal 14px/1;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            display: inline-block;
+        }
+        
+        h2:first-letter {
+            background-color: gold;
+            font-family: "Snowburst One", sans-serif;
+        }
+        
+        h3::first-letter {
+            font-family: "Ballet", sans-serif;
+        }
+        
+        #ueberschrift {
+            text-shadow: 3px 3px 3px rgb(255, 255, 255);
+        }
