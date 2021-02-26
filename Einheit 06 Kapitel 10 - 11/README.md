@@ -16,3 +16,4 @@ Erweiterung des Zoobeispiels
 - bringe Pep auf deine Seite mit text-shadow (z.B. bei den Überschriften)
 - nutze text-decoration um die Unterstreichung bei Links nur dann zu aktivieren, wenn der User mit der Mouse drüber fährt
 - Baue eine Liste ein u gestalte sie mit einem eigenen Icon (list-style-type). Lade dir bei flaticon zum Beispiel ein nettes Icon dafür herunter
+- 
