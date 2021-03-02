@@ -8,6 +8,8 @@
         
         #body {
             background-image: url(https://www.urlaubstracker.at/wp-content/uploads/2019/05/zoo-tiger.jpg);
+            background-attachment: initial;
+            background-size: 100%;
         }
         
         h1 {
@@ -46,6 +48,12 @@
         img {
             object-fit: cover;
             max-width: auto;
+            border-radius: 50%;
+            transition: 1s;
+        }
+        
+        img:hover {
+            transform: scale(1.7, 1.7);
         }
         
         main {
@@ -78,6 +86,7 @@
             color: white;
             font-size: 30px;
             background-color: rgba(20, 20, 20, 0.5);
+            box-shadow: 10px 10px 10px black;
         }
         
         .contact {
@@ -126,6 +135,7 @@
         
         a:active {
             background-color: chartreuse;
+            text-decoration: underline;
         }
         
         #contact {
@@ -168,4 +178,17 @@
         
         #ueberschrift {
             text-shadow: 3px 3px 3px rgb(255, 255, 255);
+        }
+        
+        footer {
+            font-size: 90%;
+            padding: 0;
+        }
+        
+        ol {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            list-style-type: "\f1b0";
+            font-family: 'FontAwesome';
+            font: normal normal normal 14px/1;
         }
